@@ -1,0 +1,19 @@
+{
+  "name": "bag-o-loot-node-foundations-19",
+  "version": "1.0.0",
+  "description": "https://github.com/nashville-software-school/node-milestones/blob/master/01-foundations/exercises/19-tdd_02-bag-o-loot.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wisbell/bag-o-loot-node-foundations-19.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wisbell/bag-o-loot-node-foundations-19/issues"
+  },
+  "homepage": "https://github.com/Wisbell/bag-o-loot-node-foundations-19#readme"
+}
