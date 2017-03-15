@@ -4,7 +4,7 @@
   "description": "https://github.com/nashville-software-school/node-milestones/blob/master/01-foundations/exercises/19-tdd_02-bag-o-loot.md",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R list --watch"
   },
   "repository": {
     "type": "git",
