@@ -1,0 +1,60 @@
+Remember to plan!
+
+  It helps you plan for tests as well!
+
+  Testing helps you create an idea you have already clearly planned out
+
+
+  IE
+
+    Calculator depends on the add, subtract, etc. . . modules
+
+    CLI.js is like a main function in C or C++ - it runs your other functions
+
+      like main.js or app.js
+
+
+  Jobs - user inputs 2 nums and an operator
+
+    CLI - take in arguments and feed it into parse arguments
+
+    parse args - return object of parsed args
+
+    calculator - take returned obj from parse args and run one of the operation functions (add, sub, ...)
+
+    add function
+
+      is it a function
+
+      does it take two arguments? - maybe?
+
+      does it return a sum
+
+  Note
+
+    does calculator return the right function when it is passed an object
+
+      pass in 'obj.operation' (lets say it is +) then the test should return a function (the addition function)
+
+We are doing unit testing right now
+
+  Test input and output - does a function return what it needs to return
+
+
+
+
+Create the Database - do not test that
+
+  just test the functionality that uses the database
+
+
+
+  test that does a query on all the of the toys
+
+    test if the toy you want to add is there
+
+    run query that adds the toy to database
+
+    do the query on the db again to see if toy is in the db
+
+    if it is there the function worked

@@ -1,0 +1,30 @@
+Create database
+
+add default children to database
+
+  each new child should have a bag
+
+  each new child should have at least one toy on default
+
+
+
+when database is created
+
+  create list children functionality
+
+    only list children who have not received toys
+
+  create list a child's toys list functionality
+
+  create check delivery status functionality
+
+  create add toy functionality
+
+  create remove toy functionality
+
+
+bonus functionality
+
+  write a help response of all the possible args and what they do
+
+  create a shortcut combination of args that removes all toys from a bag for a child who is naughty

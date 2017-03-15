@@ -1,0 +1,8 @@
+[
+  {"bagItemId":1, "childId": 2, "toyId": 3},
+  {"bagItemId":2, "childId": 2, "toyId": 4},
+  {"bagItemId":3, "childId": 1, "toyId": 1},
+  {"bagItemId":4, "childId": 1, "toyId": 2},
+  {"bagItemId":5, "childId": 3, "toyId": 5},
+  {"bagItemId":6, "childId": 3, "toyId": 6}
+]

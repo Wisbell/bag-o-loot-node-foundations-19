@@ -1,0 +1,8 @@
+[
+  {"toyId": 1, "name": "baseball"},
+  {"toyId": 2, "name": "glove"},
+  {"toyId": 3, "name": "brush"},
+  {"toyId": 4, "name": "doll"},
+  {"toyId": 5, "name": "bike"},
+  {"toyId": 6, "name": "dog"}
+]
