@@ -1,4 +1,4 @@
-const { assert: { isFunction, isArray } } = require('chai')
+const { assert: { isFunction, isArray, deepEqual, include } } = require('chai')
 const { listAllChildren, listSpecificChildToys } = require('../lib/listChildren')
 
 // should have two functions
@@ -13,7 +13,7 @@ describe('list children functionality', () => {
     it('should return an array of children names', () => {
       return listAllChildren()
       .then( (childrenList) => {
-        // console.log(childrenList)
+        console.log(childrenList)
         isArray(childrenList)
       })
     })
@@ -26,12 +26,13 @@ describe('list children functionality', () => {
       isFunction(listSpecificChildToys)
     })
 
-    it('should return an array', () => {
-      isArray(listSpecificChildToys())
-    })
-
-    it('should return an array with a ', () => {
-      isArray(listSpecificChildToys())
+    it('should return an array with a list of toys belonging to a specific child', () => {
+      let expected = [ {name: 'brush'}, {name: 'doll'}];
+      return listSpecificChildToys('billy')
+      .then( (toysArr) => {
+        // console.log(toysArr)
+        deepEqual(toysArr, expected)
+      })
     })
 
   })
